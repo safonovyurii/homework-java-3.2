@@ -4,7 +4,7 @@ public class Main {
         int weightKg = 90;
         double heightMetre = 1.75;
         int bim =(int) (weightKg / (heightMetre * heightMetre));
-        int myCalculate = service.calculate(bim);
+        int myCalculate = service.calculate(bim,weightKg,heightMetre);
         System.out.println("Индекс массы тела:" + bim);
 
     }
