@@ -1,9 +1,9 @@
 public class BimService {
-    public  int calculate(int bim){
+    public int calculate(int BimService) {
 
         int weightKg = 90;
-        double heightMetre =1.75;
-        bim =(int) (weightKg / (heightMetre * heightMetre));
+        double heightMetre = 1.75;
+        int bim = (int) (weightKg / (heightMetre * heightMetre));
         return bim;
     }
 }
