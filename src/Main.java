@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         BimService service = new BimService();
-        int weightKg = 90;
-        double heightMetre = 1.75;
-        int bim =(int) (weightKg / (heightMetre * heightMetre));
-        int myCalculate = service.calculate(bim,weightKg,heightMetre);
-        System.out.println("Индекс массы тела:" + bim);
+        double heightMetre = 1.87;
+        int weightKg = 98;
+        int bmi = service.calculate(heightMetre);
+
+
+        System.out.println("Индекс массы тела:" + bmi);
 
     }
 }
